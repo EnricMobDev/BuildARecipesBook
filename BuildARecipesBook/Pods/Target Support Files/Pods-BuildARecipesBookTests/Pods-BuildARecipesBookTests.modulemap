@@ -1,0 +1,6 @@
+framework module Pods_BuildARecipesBookTests {
+  umbrella header "Pods-BuildARecipesBookTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

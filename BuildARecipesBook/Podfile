@@ -1,0 +1,17 @@
+platform :ios, '9.0'
+
+use_frameworks!
+
+# Available pods
+def available_pods
+  pod 'Alamofire'
+  pod 'Kingfisher'
+end
+
+target 'BuildARecipesBook' do
+  available_pods
+end
+
+  target 'BuildARecipesBookTests' do
+    inherit! :search_paths
+end
